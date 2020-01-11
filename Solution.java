@@ -32,7 +32,7 @@ public class Solution {
 		             
 		        }
 
-		        if(inputArray[j]!=0 && (count<=2 || count == 1) )
+		        if(inputArray[j]!=0 && inputArray[j]!=1 && (count<=2 || count == 1) )
 		        {
 		             System.out.println( "Prime");
 		        }
