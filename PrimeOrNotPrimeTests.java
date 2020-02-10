@@ -18,5 +18,12 @@ class PrimeOrNotPrimeTests {
 		Solution s = new Solution();
 		assertEquals(s.PrimeOrNotPrime(3), "Prime");
 	}
+	
+	@Test
+	void testNegativeInput()
+	{
+		Solution s = new Solution();
+		assertEquals(s.PrimeOrNotPrime(-1), "Not prime");
+	}
 
 }

@@ -15,7 +15,7 @@ public class Solution {
 	public String PrimeOrNotPrime(int num)
 	{
 		int count = 0;
-		if(num==1 || num==0)
+		if(num==1 || num==0 || num<0)
     	{
            return "Not prime";
     	}
@@ -41,6 +41,8 @@ public class Solution {
                  return "Prime";
              }
     	}
+		
+		
 			
 		      
      }
